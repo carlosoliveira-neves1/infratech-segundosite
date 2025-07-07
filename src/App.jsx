@@ -125,6 +125,16 @@ export default function App() {
           © {new Date().getFullYear()} InfraTech Dados & Elétrica. Todos os direitos reservados.
         </div>
       </footer>
+
+      {/* Floating WhatsApp Icon */}
+      <a
+        href="https://wa.me/5511986489257"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 p-4 rounded-full shadow-lg transition"
+      >
+        <Chat className="w-6 h-6 text-white" />
+      </a>
     </div>
   );
 }
